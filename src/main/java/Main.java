@@ -104,10 +104,10 @@ public class Main {
 
       for (int i = 1; i < args.length; i++) {
         switch (args[i]) {
-          case "-n":
-            if (i + 1 < args.length)
-              nombre = args[++i];
-            break;
+          // case "-n":
+          // if (i + 1 < args.length)
+          // nombre = args[++i];
+          // break;
           case "-f":
             if (i + 1 < args.length) {
               String fechaInput = args[++i];
