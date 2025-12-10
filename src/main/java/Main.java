@@ -377,7 +377,6 @@ public class Main {
     System.out.println("  -h, --help                          Mostrar esta ayuda");
     System.out.println();
     System.out.println("OPCIONES PARA 'add':");
-    System.out.println("  -n <nombre>                         Nombre de la tarea (OBLIGATORIO)");
     System.out.println("  -f <fecha>                          Fecha de la tarea");
     System.out.println("  -d <descripción>                    Descripción de la tarea");
     System.out.println("  -t <tipo>                           Tipo de tarea");
@@ -391,8 +390,8 @@ public class Main {
     System.out.println();
     System.out.println("EJEMPLOS:");
     System.out.println("  tasker init");
-    System.out.println("  tasker add -n \"Implementar login\" -p alta");
-    System.out.println("  tasker add -n \"Documentar API\" -t documentación");
+    System.out.println("  tasker add \"Implementar login\" -p alta");
+    System.out.println("  tasker add \"Documentar API\" -t documentación");
     System.out.println("  tasker list");
     System.out.println("  tasker complete 2");
     System.out.println("  tasker delete 1");
