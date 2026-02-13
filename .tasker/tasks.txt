@@ -1,1 +1,2 @@
 1|Casi terminado, solo queda probarlo fuerte|05/12/2025|Sin descripción|Sin tipo|media
+2|está funcionando|12/02/2026|Sin descripción|Sin tipo|media
